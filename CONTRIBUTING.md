@@ -33,6 +33,6 @@ If you have any questions or need further assistance, feel free to reach out to 
 
 ## License
 
-By contributing to Project 1, you agree that your contributions will be licensed under the Apache License. See the [LICENSE]() file for more details.
+By contributing to Project 1, you agree that your contributions will be licensed under the Apache License. See the [LICENSE](https://github.com/Web-Programming-Team-14/project1?tab=Apache-2.0-1-ov-file) file for more details.
 
 Thank you for your interest in contributing to Project 1! We appreciate your help in making this project better for everyone.
