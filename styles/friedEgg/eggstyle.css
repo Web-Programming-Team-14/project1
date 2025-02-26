@@ -5,10 +5,10 @@
 }
 
 :root {
-  --color-pink: #ffadad;
-  --color-peach: #ffd6a5;
-  --color-yellow: #fdffb6;
-  --color-green: #caffbf;
+  --color-light-yellow: #FEFFD2;
+  --color-medium-yellow: #FFEEA9;
+  --color-orange: #FFBF78;
+  --color-deep-orange: #FF7D29;
   --color-white: white;
 }
 
@@ -16,7 +16,7 @@ body {
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background: url(../../images/friedEgg/background.png);
+  background: url(../../images/friedEgg/background1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ span {
   margin-bottom: 2em;
   padding: 0;
   background-color: var(--color-white);
-  box-shadow: 0px 1px 5px 1px var(--color-yellow);
+  box-shadow: 0px 1px 5px 1px var(--color-medium-yellow);
 }
 
 #home-page {
@@ -47,7 +47,7 @@ span {
 
 #home-page > a {
   display: inline-block;
-  border: 2px solid var(--color-pink);
+  border: 2px solid var(--color-orange);
   padding: 0.5rem;
   border-radius: 50%;
 }
@@ -59,21 +59,21 @@ span {
 #logo {
   width: 100px;
   height: 100%;
-  background-color: var(--color-pink);
+  background-color: var(--color-orange);
   justify-content: center;
   align-items: center;
   display: flex;
 }
 #logo > img {
   width: 70%;
-  background-color: var(--color-pink);
+  background-color: var(--color-orange);
   border-radius: 50%;
 }
 #title {
   display: flex;
   width: 100%;
   height: 100%;
-  color: var(--color-pink);
+  color: var(--color-orange);
   justify-content: center;
   align-items: center;
 }
@@ -98,7 +98,7 @@ span {
   width: 100%;
   text-transform: uppercase;
   color: var(--color-pink);
-  text-shadow: 2px 2px var(--color-green);
+  text-shadow: 2px 2px var(--color-deep-orange);
 }
 .recipe-title {
   height: 20%;
@@ -129,7 +129,7 @@ span {
 .animation-zone {
   width: 100%;
   height: 100%;
-  border: 1px solid var(--color-yellow);
+  border: 1px solid var(--color-medium-yellow);
   margin-right: 1.5em;
   display: flex;
   flex-direction: column;
@@ -139,11 +139,11 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../../images/friedEgg/background2.png);
+  background: url(../../images/friedEgg/background2.jpg);
 }
 
 .content__egg-button {
-  border: 2px solid var(--color-yellow);
+  border: 2px solid var(--color-medium-yellow);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,7 +151,7 @@ span {
   width: 6em;
   height: 6em;
   border-radius: 50%;
-  background-color: var(--color-pink);
+  background-color: var(--color-orange);
   color: var(--color-white);
   text-decoration: none;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ span {
 }
 
 .content__egg-button:hover {
-  background-color: var(--color-green);
+  background-color: var(--color-deep-orange);
   color: black;
 }
 
@@ -188,13 +188,13 @@ span {
 }
 
 .recipe-stuff:has(#recipe1-step1 .recipe-step:hover) .ingredient-1 {
-  background-color: var(--color-green);
+  background-color: var(--color-deep-orange);
 }
 .recipe-stuff:has(#recipe1-step2 .recipe-step:hover) .ingredient-2 {
-  background-color: var(--color-green);
+  background-color: var(--color-deep-orange);
 }
 .recipe-stuff:has(#recipe1-step4 .recipe-step:hover) .ingredient-4 {
-  background-color: var(--color-green);
+  background-color: var(--color-deep-orange);
 }
 
 .step-explanation:target {
@@ -207,7 +207,7 @@ span {
   display: none;
   flex-direction: column;
   opacity: 0;
-  background-color: var(--color-yellow);
+  background-color: var(--color-medium-yellow);
 }
 .explanation {
   height: 100%;
@@ -454,8 +454,8 @@ span {
   animation: ingredient-fall 2s ease-out infinite;
 }
 .ingredient-set-title {
-  background: url(../../images/friedEgg/background1.png);
-  color: var(--color-green);
+  background: url(../../images/friedEgg/background1.jpg);
+  color: var(--color-light-yellow);
   font-size: 30px;
   text-shadow: 2px 2px #333;
 }
@@ -470,7 +470,7 @@ span {
 }
 
 .ingredient-set-title:hover {
-  background-color: var(--color-peach);
+  background-color: var(--color-medium-yellow);
   color: var(--color-peach);
   transform: scale(1.1);
   border-radius: 10px;
@@ -513,7 +513,7 @@ span {
 #copyright {
   padding: 0.3rem;
   margin-top: 6rem;
-  background-color: var(--color-pink);
+  background-color: var(--color-orange);
   color: var(--color-white);
   text-align: center;
   font-size: 12px;
