@@ -5,10 +5,10 @@
 }
 
 :root {
-  --color-light-yellow: #FEFFD2;
-  --color-medium-yellow: #FFEEA9;
-  --color-orange: #FFBF78;
-  --color-deep-orange: #FF7D29;
+  --color-light-yellow: #feffd2;
+  --color-medium-yellow: #ffeea9;
+  --color-orange: #ffbf78;
+  --color-deep-orange: #ff7d29;
   --color-white: white;
 }
 
@@ -185,6 +185,10 @@ span {
 .ingredient-set:hover {
   transform: scale(1.05);
   border-radius: 5px;
+}
+
+.ingredient-section {
+  margin: 30px;
 }
 
 .recipe-stuff:has(#recipe1-step1 .recipe-step:hover) .ingredient-1 {
