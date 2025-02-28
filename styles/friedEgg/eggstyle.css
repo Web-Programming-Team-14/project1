@@ -329,6 +329,16 @@ span {
   animation: eggMove 3s ease-in-out infinite;
 }
 
+#egg2 {
+  margin-left: 2em;
+  margin-top: 10em;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  position: absolute;
+  animation: eggMove 3s ease-in-out infinite;
+}
+
 #toast {
   margin-left: 1em;
   width: auto;
