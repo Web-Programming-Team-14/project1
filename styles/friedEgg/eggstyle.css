@@ -347,6 +347,15 @@ span {
   animation: eggMove 3s ease-in-out infinite;
 }
 
+#bacon2 {
+  margin-left: 23em;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  position: absolute;
+  animation: eggMove 3s ease-in-out infinite;
+}
+
 @keyframes bob {
   from {
     transform: translateY(0px);
@@ -504,7 +513,7 @@ span {
 }
 
 #plate {
-  width: 520px;
+  width: 530px;
   margin: 2em;
 }
 
