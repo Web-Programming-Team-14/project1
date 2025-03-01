@@ -8,9 +8,10 @@
 
 ## Materials:
 
+- [Website](https://codd.cs.gsu.edu/~nnguyen177/MyWebPro/Project1/pages/homePage/index.html)
 - [Proposal](https://drive.google.com/file/d/11bROjhPr30FwSbu4reeODURDIh_Ij6lm/view?usp=sharing)
-- [PowerPoint](https://docs.google.com/presentation/d/1-ewbOYTt8PZxolUlstbdvTSNdnY-yizU/edit?usp=sharing&ouid=115868471783120857845&rtpof=true&sd=true)
 - [Video](https://drive.google.com/file/d/1vngGyQ7q_s_ryOpDyRf6kWaAwufOSoy_/view?usp=sharing)
+- [PowerPoint](https://docs.google.com/presentation/d/1-ewbOYTt8PZxolUlstbdvTSNdnY-yizU/edit?usp=sharing&ouid=115868471783120857845&rtpof=true&sd=true)
 
 ## Project Summary:
 
